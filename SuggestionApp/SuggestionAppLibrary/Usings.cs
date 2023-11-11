@@ -4,6 +4,9 @@ global using System.Linq;
 global using System.Text;
 global using System.Threading.Tasks;
 
+global using MongoDB.Bson.Serialization.Attributes;
+global using MongoDB.Bson;
+
 global using SuggestionAppLibrary;
 global using SuggestionAppLibrary.Models;
 global using SuggestionAppLibrary.DataAccess;
